@@ -1,0 +1,78 @@
+
+{
+    "course_info":[
+        {
+            "course_subject":"CSE",
+            "course_number":"219",
+            "course_semester":"Fall",
+            "course_year":"2017",
+            "course_title":"Computer Science III",
+            "course_instructor":"Richard McKenna",
+            "course_instructor_home":"http://www.cs.stonybrook.edu/~richard"
+        }
+    ],
+    "site_pages":[
+        {
+            "use_page":true,
+            "navbar_title":"Home",
+            "file_name":"index.html",
+            "script":"HomeBuilder.js"
+        }
+    ],
+    "startHour":"9",
+    "endHour":"20",
+    "undergrad_tas":[
+        {
+            "undergrad":false,
+            "name":"Bob",
+            "email":"bob@stonybrook.edu"
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"WEDNESDAY",
+            "time":"10_00am",
+            "name":"Bob"
+        }
+    ],
+    "recitations":[
+        {
+            "section":"R02",
+            "instructor":"McKenna",
+            "day_time":"Wed 3:30pm-4:23pm",
+            "location":"Old CS 2114",
+            "ta_1":"Jane Doe",
+            "ta_2":"Joe Shmo"
+        }
+    ],
+    "calendar_boundaries":[
+        {
+            "start_date":"4/22/2012",
+            "end_date":"5/22/2012"
+        }
+    ],
+    "schedules":[
+        {
+            "type":"Lecture",
+            "date":"2/14/2017",
+            "title":"Lecture 3",
+            "topic":"Event Programming"
+        }
+    ],
+    "teams":[
+        {
+            "team_name":"Atomic Comics",
+            "color":"552211",
+            "text_color":"ffffff",
+            "link":"http://atomicomic.com"
+        }
+    ],
+    "students":[
+        {
+            "first_name":"Beau",
+            "last_name":"Brummell",
+            "student_team":"Atomic Comics",
+            "student_role":"Lead Designer"
+        }
+    ]
+}

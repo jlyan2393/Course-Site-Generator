@@ -1,0 +1,170 @@
+/* 
+    This style sheet stylizes the controls inside our
+    TA Manager JavaFX application. Note that controls
+    in the UI must have the same class as those below in 
+    order to be rendered using those properties.
+
+    Note that it may seem overwhelming to see so many different
+    style classes, even though our application doesn't have that
+    many controls, but what this allows us to do is easily
+    control and update the style of the entire user interface
+    via a stylesheet without having the change Java code.
+
+    Author:	Richard McKenna
+    Co-Author:  Jason Lyan
+    Version:	1.0
+*/
+.root{
+    -fx-font-family: "Courier New";
+}
+
+.combobox_pane {
+    -fx-font-size: 14pt;
+    -fx-background-color: #ccccff;
+}
+
+.default_tab_pane {
+    -fx-color: Gainsboro;
+    -fx-background-color: #ccccff;
+    -fx-font-weight: bold;
+}
+
+.default_inner_pane {
+    -fx-background-color: whitesmoke;
+    -fx-border-width: 3px;
+    -fx-border-color: gray;
+    -fx-border-insets: 10px;
+    -fx-background-insets: 10px;
+}
+
+.dialog_pane {
+    -fx-padding:15;
+}
+
+.dialog_heading {
+    -fx-font-size: 24pt;
+    -fx-color:red;
+}
+
+.dialog_prompt {
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+}
+
+.plain_pane{
+    
+}
+
+.bordered_pane {
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-background-color: #aaaaff;
+    -fx-background-radius: 5.0;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+    -fx-border-width: 2px;
+    -fx-border-color: #7777dd;
+    -fx-padding: 2 2 2 10;
+}
+
+.header_pane{
+    -fx-background-color: #ccccff;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-padding: 2 2 2 10;
+}
+
+.header_label {
+    
+}
+
+.header_label_pane {
+    -fx-font-size: 20pt;
+    -fx-padding: 10 0 10 0;
+}
+
+.ta_table{
+    -fx-font-size: 12pt;
+    -fx-border-color: black;
+}
+
+.table-view .column-header.ta_table_column_header .label {
+    -fx-background-color: #191970;
+    -fx-font-size: 12pt;
+    -fx-text-fill: white;
+}
+
+.small_header_label_pane {
+    -fx-font-size: 16pt;
+    -fx-padding: 10 0 10 0;
+}
+
+.add_ta_pane{
+    -fx-padding: 2 0 0 10;
+}
+
+.add_ta_text_field{
+    
+}
+
+.add_ta_button{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+  -fx-border-radius: 10 10 10 10;
+  -fx-background-radius: 10 10 10 10;    
+}
+
+.office_hours_grid{
+    
+}
+
+.office_hours_grid_time_column_header_pane{
+    -fx-background-color: #191970;
+}
+
+.office_hours_grid_time_column_header_label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+.office_hours_grid_day_column_header_pane{
+    -fx-background-color: #191970;
+}
+
+.office_hours_grid_day_column_header_label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+.office_hours_grid_time_cell_pane{
+    -fx-background-color: #000099;
+    -fx-border-color: grey;
+    -fx-border-style: dotted;
+}
+
+.office_hours_grid_time_cell_label{
+    -fx-text-fill: white;
+}
+
+.office_hours_grid_ta_cell_pane{
+    -fx-background-color: #abab78;
+    -fx-border-color: black;
+}
+
+.office_hours_grid_ta_cell_label{
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+}
+
+.office_hours_grid_ta_cell_selected{
+    -fx-background-color: #abab78;
+    -fx-border-color: yellow;
+}
+
+.office_hours_grid_ta_cell_highlight{
+    -fx-background-color: #abab78;
+    -fx-border-color: #F2F9A1;
+}

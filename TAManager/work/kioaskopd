@@ -1,0 +1,24 @@
+
+{
+    "site_pages":[
+    ],
+    "startHour":"9",
+    "endHour":"20",
+    "undergrad_tas":[
+        {
+            "undergrad":false,
+            "name":"kopkop",
+            "email":"kop@aop.edko"
+        }
+    ],
+    "officeHours":[
+    ],
+    "recitations":[
+    ],
+    "schedules":[
+    ],
+    "teams":[
+    ],
+    "students":[
+    ]
+}
