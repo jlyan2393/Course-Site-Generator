@@ -1,0 +1,11 @@
+
+{
+    "schedules":[
+        {
+            "type":"Lecture",
+            "date":"2/14/2017",
+            "title":"Lecture 3",
+            "topic":"Event Programming"
+        }
+    ]
+}

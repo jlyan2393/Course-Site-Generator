@@ -1,0 +1,19 @@
+
+{
+    "teams":[
+        {
+            "team_name":"Atomic Comics",
+            "color":"552211",
+            "text_color":"ffffff",
+            "link":"http://atomicomic.com"
+        }
+    ],
+    "students":[
+        {
+            "first_name":"Beau",
+            "last_name":"Brummell",
+            "student_team":"Atomic Comics",
+            "student_role":"Lead Designer"
+        }
+    ]
+}

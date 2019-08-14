@@ -1,0 +1,19 @@
+
+{
+    "startHour":"9",
+    "endHour":"20",
+    "undergrad_tas":[
+        {
+            "undergrad":false,
+            "name":"Bob",
+            "email":"bob@stonybrook.edu"
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"WEDNESDAY",
+            "time":"10_00am",
+            "name":"Bob"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+
+{
+    "recitations":[
+        {
+            "section":"R02",
+            "instructor":"McKenna",
+            "day_time":"Wed 3:30pm-4:23pm",
+            "location":"Old CS 2114",
+            "ta_1":"Jane Doe",
+            "ta_2":"Joe Shmo"
+        }
+    ]
+}
